@@ -4,8 +4,8 @@ export const LENSTUBE_APP_NAME = 'Lenstube'
 export const LENSTUBE_APP_DESCRIPTION =
   'Lenstube is a decentralized video-sharing social media platform built with Lens protocol.'
 
-export const LENS_ENV = process.env.NEXT_PUBLIC_ENVIRONMENT ?? 'testnet'
-export const IS_MAINNET = LENS_ENV === 'testnet'
+export const LENS_ENV = 'testnet' //process.env.NEXT_PUBLIC_ENVIRONMENT ?? 'mainnet'
+export const IS_MAINNET = false //LENS_ENV === 'mainnet'
 
 export const STATIC_ASSETS = 'https://assets.lenstube.xyz'
 export const LENSTUBE_WEBSITE_URL = IS_MAINNET
